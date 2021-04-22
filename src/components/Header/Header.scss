@@ -1,0 +1,32 @@
+@import '../../styles/shared/color.scss';
+
+.first-box{
+    border: 1px solid $text-color;
+    color:$text-color;
+}
+.second-box{
+    border: 1px solid $text-color;
+    color:goldenrod;
+}
+.third-box{
+    border: 1px solid $text-color;
+    color: $text-color;
+
+}
+.fourth-box{
+    border: 1px solid $text-color;
+    color: goldenrod;
+}
+
+.container{
+    background-color: blue;
+    .row{
+        margin: 10px;
+    }
+}
+.btn{
+    color:white;
+    &hover{
+        color:green;
+    }
+}
